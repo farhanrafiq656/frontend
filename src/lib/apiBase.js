@@ -1,5 +1,5 @@
 const localApiHost = 'http://localhost:5000';
-const productionApiHost = 'https://backend-ncba.vercel.app';
+const productionApiHost = '/api';
 
 export function getApiBaseUrl() {
   const fallbackUrl = import.meta.env.DEV ? localApiHost : productionApiHost;
