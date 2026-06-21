@@ -12,6 +12,7 @@ coverage/
 .env.*
 !.env.example
 !.env.sample
+!.env.production
 
 # Logs and runtime files
 *.log
@@ -24,4 +25,3 @@ Thumbs.db
 desktop.ini
 .idea/
 .vscode/
-
